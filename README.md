@@ -1,3 +1,5 @@
+This project is to build a personal website. Currently, it includes a photo wall. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
