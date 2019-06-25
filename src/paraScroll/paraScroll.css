@@ -1,0 +1,57 @@
+/* .container {
+    width: 300px;
+    height: 400px;
+    overflow-y: scroll;
+    perspective-origin: 0 0;
+    perspective: 1px;
+    background-color: pink;
+    transform-style: preserve-3d;
+  }
+  .wrapper {
+    transform-style: preserve-3d;
+    height:100%;
+}
+  .box1 {
+    width: 100px;
+    height: 200%;
+    transform-origin: 0 0;
+    transform: translateZ(-2px) scale(3);
+    background-color: skyblue;
+  }
+  .box2 {
+    width: 100px;
+    height: 200%;
+    background-color: indianred;
+    float: right;
+  } */
+
+.name-container{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  transform-style: preserve-3d;
+  perspective: 5px;
+  perspective-origin: 50% 50%;
+  height:100%;
+  
+}
+.name{
+  font-size:100px;
+  width:100px;
+  background: red;
+}
+.wrapper {
+  height:150%;
+  padding: 100px;
+}
+
+.letter-1{
+  transform: translateZ(-10px) scale(3);
+  
+}
+.letter-2{
+  transform: translateZ(-20px) scale(5);
+  
+}
+.letter-3{
+  transform: translateZ(-30px) scale(7);
+}
